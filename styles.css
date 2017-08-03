@@ -1,0 +1,53 @@
+body {
+  background-color: #18bc9c;
+  margin-top: 60px;
+}
+
+.navbar {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.white {
+  color: #faebd7 !important;
+}
+
+.active a{
+  background-color:  #217DBB !important;
+}
+
+#blurb {
+  color: #faebd7;
+  font-size: 2em;
+}
+
+.dylanpic {
+  max-width: 75%;
+  max-height: 75%;
+}
+
+.list-group-item {
+  background-color: #464545;
+}
+
+.bottomIcon {
+  height: 48px;
+  width: 48px;
+}
+
+#endlist {
+  background-color: #464545;
+  border: none;
+}
+
+#bottomlinks {
+  font-size: .5em;
+}
+
+.location {
+  margin-top: 60px;
+}
+
+a:hover {
+  background-color: darkgray !important;
+}
