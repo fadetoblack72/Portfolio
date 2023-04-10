@@ -1,11 +1,36 @@
 body {
   background-color: #18bc9c;
-  margin-top: 60px;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar {
+#header {
   background-color: #3498db;
-  border-color: #3498db;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  justify-content: right;
+  align-items: right;
+}
+
+#name {
+  font-size:4vw;
+  color:#faebd7;
+  margin-top: 0;
+  justify-content: right;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#hello {
+  max-width: 30%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  justify-content: right;
+  display: inline-block;
+  float: right;
 }
 
 .white {
@@ -18,7 +43,8 @@ body {
 
 #blurb {
   color: #faebd7;
-  font-size: 2em;
+  font-size: 1.5vw;
+  padding: 20px;
 }
 
 .dylanpic {
@@ -26,8 +52,34 @@ body {
   max-height: 75%;
 }
 
-.list-group-item {
+#unordered {
+  display: block;
+  padding: 1em;
+}
+
+.list-group {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  columns: 3;
+  -webkit-columns3;
+  -moz-columns: 3S;
+  display: table-row;
+}
+
+.list-item {
+  float: left;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
   background-color: #464545;
+  box-sizing: border-box;
+  object-fit: contain;
+  width: 35%;
+}
+
+.img-port {
+  object-fit: contain;
 }
 
 .bottomIcon {
